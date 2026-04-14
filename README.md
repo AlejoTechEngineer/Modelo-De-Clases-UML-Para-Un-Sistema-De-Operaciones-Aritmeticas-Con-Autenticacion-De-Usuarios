@@ -421,9 +421,7 @@ Demuestra de forma práctica que la **lógica de negocio es independiente del me
 ## 👤 Autor
 
 **Alejandro De Mendoza**  
-Ingeniero Informático · Ingeniero de Plataformas e Integraciones
-Especialista en Inteligencia Artificial - UNIR
-Maestría en Arquitectura de Software — Politécnico Grancolombiano  
+Ingeniero Informático · Ingeniero de Plataformas e Integraciones· Especialista en Inteligencia Artificial — UNIR· Maestría en Arquitectura de Software — Politécnico Grancolombiano  
 
 ---
 
