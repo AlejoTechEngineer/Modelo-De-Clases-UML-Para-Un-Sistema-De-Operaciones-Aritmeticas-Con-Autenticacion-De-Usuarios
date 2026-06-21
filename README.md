@@ -435,6 +435,21 @@ Ingeniero Informático — UNIR · Ingeniero Senior de Plataformas e Integracion
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Cliente Web - REST API] --> E[ComponenteAutorizacion.js - RRHH]
+    B[Cliente CLI - Terminal] --> E
+    A --> F[ComponenteRegistroVentas.js - Transacciones]
+    B --> F
+    F --> G[ComponenteInventario.js - Stock / Bodega]
+    F --> H[ComponenteReabastecimiento.js - Pedidos a Proveedores]
+    F --> I[ComponenteGestionEntregas.js - Logistica]
+    G & H & I & E --> J[(db.js - Capa de Datos)]
+    J --> K[Vendedores - Clientes - Productos - Ventas - Proveedores - Entregas]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
