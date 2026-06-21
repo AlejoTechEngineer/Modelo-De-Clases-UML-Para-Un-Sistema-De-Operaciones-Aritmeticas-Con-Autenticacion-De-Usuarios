@@ -30,6 +30,21 @@
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Cliente Web - REST API] --> E[ComponenteAutorizacion.js - RRHH]
+    B[Cliente CLI - Terminal] --> E
+    A --> F[ComponenteRegistroVentas.js - Transacciones]
+    B --> F
+    F --> G[ComponenteInventario.js - Stock / Bodega]
+    F --> H[ComponenteReabastecimiento.js - Pedidos a Proveedores]
+    F --> I[ComponenteGestionEntregas.js - Logistica]
+    G & H & I & E --> J[(db.js - Capa de Datos)]
+    J --> K[Vendedores - Clientes - Productos - Ventas - Proveedores - Entregas]
+```
+
 ## 📌 Descripción General
 
 **PoliMarket** es un sistema de información empresarial diseñado bajo una **arquitectura modular basada en componentes**, que integra las principales áreas de negocio de una organización comercial: Recursos Humanos, Ventas, Bodega, Proveedores y Entregas.
@@ -434,21 +449,6 @@ Ingeniero Informático — UNIR · Ingeniero Senior de Plataformas e Integracion
 *Desarrollado para la asignatura Temas Avanzados de Diseño Software · Ing. Lina María Montoya Suárez · Bogotá D.C., 2026*
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Cliente Web - REST API] --> E[ComponenteAutorizacion.js - RRHH]
-    B[Cliente CLI - Terminal] --> E
-    A --> F[ComponenteRegistroVentas.js - Transacciones]
-    B --> F
-    F --> G[ComponenteInventario.js - Stock / Bodega]
-    F --> H[ComponenteReabastecimiento.js - Pedidos a Proveedores]
-    F --> I[ComponenteGestionEntregas.js - Logistica]
-    G & H & I & E --> J[(db.js - Capa de Datos)]
-    J --> K[Vendedores - Clientes - Productos - Ventas - Proveedores - Entregas]
-```
 
 ## Autor
 
