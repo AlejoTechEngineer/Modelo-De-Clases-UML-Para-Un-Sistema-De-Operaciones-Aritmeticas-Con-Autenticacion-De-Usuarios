@@ -1,8 +1,14 @@
+<div align="center">
+
 # 🏪 PoliMarket — Sistema de Gestión Empresarial
 
 > **Laboratorio No. 2 — Reutilización de Software**  
 > Maestría en Arquitectura de Software · Temas Avanzados de Diseño Software  
 > Politécnico Grancolombiano · 2026
+
+</div>
+
+---
 
 ---
 
@@ -426,3 +432,12 @@ Ingeniero Informático — UNIR · Ingeniero Senior de Plataformas e Integracion
 ---
 
 *Desarrollado para la asignatura Temas Avanzados de Diseño Software · Ing. Lina María Montoya Suárez · Bogotá D.C., 2026*
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
